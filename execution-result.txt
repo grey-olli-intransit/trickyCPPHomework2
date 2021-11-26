@@ -1,0 +1,29 @@
+----> 04:58:01 Fri Nov 26 olli@dell15 ~/CLionProjects/trickyCPP/homework2/cmake-build-debug
+$ ./homework2 
+Line 1 vowels: 14. Line 2 vowels: 39. Line 3 vowels: 61. Line 4 vowels: 72. 
+Total vowels in file: 72
+count_if & for:	1.023 ms
+Line 1 vowels: 14. Line 2 vowels: 39. Line 3 vowels: 61. Line 4 vowels: 72. 
+Total vowels in file: 72.
+for & for:	0.107702 ms
+Line 1 vowels: 14. Line 2 vowels: 39. Line 3 vowels: 61. Line 4 vowels: 72. 
+Total vowels in file: 72.
+for & find:	0.375587 ms
+Способа использовать std::string::find вместе с STL count_if я не придумал - find тут лишнее.
+Так что в сравнении участвуют только три способа подсчёта.
+Просто на циклах for быстрее чем с использованием STL count_if(),  а использование
+ std::string::find делает способ самым медленным из трёх.
+------
+List of values pointed by vector before sort of vector:
+1 2 4 3 
+List of values pointed by vector after sort of vector:
+1 2 3 4 
+------
+*aPointer: 1
+*bPointer: 2
+After swapPointers():
+*aPointer: 2
+*bPointer: 1
+----> 04:58:05 Fri Nov 26 olli@dell15 ~/CLionProjects/trickyCPP/homework2/cmake-build-debug
+$ 
+
